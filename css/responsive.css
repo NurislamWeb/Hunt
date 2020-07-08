@@ -1,0 +1,315 @@
+@media (min-width:320px) and (max-width:575px){
+
+    /* title part start   */
+    .title p{
+        width: auto;
+    }
+    
+    /* title part end   */
+    
+    
+    
+    /* navbar part start   */
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    
+    button i{
+        color: #fff;
+    }
+    
+    .navbar ul{
+        background: #000;
+        text-align: center;
+    }
+    
+    ul li a:hover:after{
+        width: 0;
+    }
+    
+    ul li .active:after{
+        width: 0;
+    }
+/* navbar part end   */
+    
+    
+    
+    
+    
+    
+/* banner part start   */
+    .arrow-prev a i{
+        display: none;
+    }
+    
+    .arrow-next a i{
+        display: none;
+    }
+    
+    #banner-part .banner .overlay{
+        padding: 150px 0;
+    }
+    
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    #banner-part ul{
+        text-align: center;
+    }
+    
+    #banner-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        border-radius: 50%;
+        
+    }
+    
+    #banner-part ul .slick-active{
+        background: #FEC600;
+    }
+    
+    #banner-part ul li button{
+        font-size: 0;
+        display: none;
+    
+    }
+    
+/* banner part end   */
+    
+    
+    
+/* about part start  */
+    #about-part .about-top{
+        margin-bottom: 150px;
+    }
+    
+    #about-part .about-top p{
+        width: auto;
+    }
+    
+    #about-part .about-top #triangle-down{
+        display: none;
+    }
+    
+    #about-part .about-top i{
+        display: none;
+    }
+    
+    #about-part .about-left{
+        width: auto;
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    #about-part .about-left #triangle-right{
+        display: none;
+    }
+    
+    #about-part .about-left p{
+        width: auto;
+    }
+    
+    #about-part .about-main{
+        margin-top: 135px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 125px;
+    }
+    
+    #about-part .about-main .img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-main .img img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-right{
+        text-align: center;
+        width: auto;
+        margin: 0 10px;
+        margin-left: 0;
+    }
+    
+    #about-part .about-right p{
+        width: auto;
+    }
+    
+    #about-part .about-right #triangle-left{
+        display: none;
+    }
+    
+    #about-part .about-bottom{
+        margin-top: 142px;
+    }
+    
+    #about-part .about-bottom #triangle-up{
+        display: none;
+    }
+    
+    #about-part .about-bottom i{
+        display: none;
+    }
+    
+    #about-part .about-bottom p{
+        width: auto;
+    }
+
+/* about part end  */
+    
+    
+    
+/* portfolio part start  */
+    #portfolio-part .overlay{
+        padding: 50px 0;
+    }
+/* portfolio part end  */
+    
+    
+    
+    
+/* services part start  */
+    #services-part .item{
+        flex-direction: column;
+    }
+    
+    #services-part .item .right{
+        width: 100%;
+    }
+    
+    #services-part .item .right p{
+        width: auto;
+    }
+    
+    #services-part .item .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    #services-part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #services-part .line{
+        display: none;
+    }
+    
+    #services-part ul{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #services-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        background: transparent;
+        border-radius: 50%;
+    }
+    
+    #services-part ul .slick-active{
+        background: #FEC600;
+        
+    }
+    
+    #services-part ul li button{
+        font-size: 0;
+        outline: 0;
+        display: none;
+    }
+    
+    
+    
+ 
+*
+/* services part end  */
+    
+    
+    
+    
+/* testimonial  part start  */
+    #testimonial-part{
+        margin-top: 30px;
+    }
+/* testimonial  part end  */
+    
+    
+    
+/* pricing   part start  */
+    #pricing-part .price{
+        margin-top: 10px;
+    }
+/* pricing   part end  */
+    
+    
+    
+/* counter   part start  */
+    #counter-part .overlay .row{
+        flex-direction: column;
+    }
+    
+    #counter-part .overlay .three{
+        margin-top: 28px;
+    }
+    
+    #counter-part .overlay .four{
+        margin-top: 28px;
+    }
+    
+    #counter-part .overlay .five{
+        margin-top: 28px;
+    }
+/* counter   part end  */
+    
+    
+    
+/* partner   part start  */
+    #partner-part .partner .slick-slide{
+        margin: 0;
+    }
+    
+/* partner   part end  */
+    
+    
+    
+/* team part start  */
+    #team-part{
+        margin-top: 30px;
+    }
+    
+    #team-part .team{
+        margin-bottom: 30px;
+    }
+/* team part end  */
+    
+    
+    
+/* footer part start  */
+    #footer .item{
+        margin-top: 30px;
+        border-right: 0;
+    }
+/* footer part end  */
+    
+    
+  
+    
+    
+    
+    
+    .b-top{
+        display: none;
+    }
+    
+}
+
+
