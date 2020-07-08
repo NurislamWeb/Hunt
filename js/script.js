@@ -145,7 +145,7 @@ $('.testi-slider').slick({
     {
       breakpoint: 576,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         vertical: false,
         
