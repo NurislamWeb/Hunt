@@ -1,3 +1,9 @@
+/*
+=========================================================
+    extra small device responsive (320px 575px) start
+=========================================================
+*/
+
 @media (min-width:320px) and (max-width:575px){
 
     /* title part start   */
@@ -113,6 +119,7 @@
     #about-part .about-left p{
         width: auto;
     }
+    
     
     #about-part .about-main{
         width: 300px;
@@ -340,15 +347,1050 @@
 /* footer part end  */
     
     
-  
     
-    
-    
-    
+/* back top top button part start  */
     .b-top{
         display: none;
     }
+/* back top top button part end  */    
     
 }
 
+/*
+=========================================================
+    extra small device responsive (320px 575px) end
+=========================================================
+*/
 
+
+
+
+
+
+
+
+
+
+/*
+=========================================================
+    small device responsive (576px-- 767px) start
+=========================================================
+*/
+
+@media (min-width:576px) and (max-width:767px){
+
+    /* title part start   */
+    .title p{
+        width: auto;
+    }
+    /* title part end   */
+    
+    
+    
+    /* navbar part start   */
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    
+    button i{
+        color: #fff;
+        background: #FEC600;
+        padding: 10px;
+    }
+    
+    .navbar ul{
+        background: #000;
+        text-align: center;
+    }
+    
+    ul li a:hover:after{
+        width: 0;
+    }
+    
+    ul li .active:after{
+        width: 0;
+    }
+/* navbar part end   */
+    
+    
+    
+    
+    
+    
+/* banner part start   */
+    .arrow-prev a i{
+        display: none;
+    }
+    
+    .arrow-next a i{
+        display: none;
+    }
+    
+    #banner-part .banner .overlay{
+        padding: 150px 0;
+    }
+    
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    #banner-part ul{
+        text-align: center;
+    }
+    
+    #banner-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        border-radius: 50%;
+        
+    }
+    
+    #banner-part ul .slick-active{
+        background: #FEC600;
+    }
+    
+    #banner-part ul li button{
+        font-size: 0;
+        display: none;
+    
+    }
+    
+/* banner part end   */
+    
+    
+    
+/* about part start  */
+    #about-part .about-top{
+        margin-bottom: 150px;
+    }
+    
+    #about-part .about-top p{
+        width: auto;
+    }
+    
+    #about-part .about-top #triangle-down{
+        display: none;
+    }
+    
+    #about-part .about-top i{
+        display: none;
+    }
+    
+    #about-part .about-left{
+        width: auto;
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    #about-part .about-left #triangle-right{
+        display: none;
+    }
+    
+    #about-part .about-left p{
+        width: auto;
+    }
+    
+     #about-part .about-left i{
+        display: none;
+    }
+    
+    #about-part .about-main{
+        width: 300px;
+        height: 300px;
+        margin: 110px auto;
+    }
+    
+    #about-part .about-main .img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-main .img img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-right{
+        text-align: center;
+        width: auto;
+        margin: 0 10px;
+        margin-left: 0;
+    }
+    
+    #about-part .about-right p{
+        width: auto;
+    }
+    
+    #about-part .about-right i{
+        display: none;
+    }
+    
+    #about-part .about-right #triangle-left{
+        display: none;
+    }
+    
+    #about-part .about-bottom{
+        margin-top: 142px;
+    }
+    
+    #about-part .about-bottom #triangle-up{
+        display: none;
+    }
+    
+    #about-part .about-bottom i{
+        display: none;
+    }
+    
+    #about-part .about-bottom p{
+        width: auto;
+    }
+
+/* about part end  */
+    
+    
+    
+/* portfolio part start  */
+    #portfolio-part .overlay{
+        padding: 50px 0;
+    }
+/* portfolio part end  */
+    
+    
+    
+    
+/* services part start  */
+    #services-part .item{
+        flex-direction: column;
+    }
+    
+    #services-part .title{
+        margin-bottom: 0px;
+    }
+    
+    #services-part .title p{
+        margin-bottom: -45px;
+    }
+    
+    #services-part .item .right{
+        width: 100%;
+    }
+    
+    #services-part .item .right p{
+        width: auto;
+    }
+    
+    #services-part .item .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    #services-part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #services-part .line{
+        display: none;
+    }
+    
+    #services-part ul{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #services-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        background: transparent;
+        border-radius: 50%;
+    }
+    
+    #services-part ul .slick-active{
+        background: #FEC600;
+        
+    }
+    
+    #services-part ul li button{
+        font-size: 0;
+        outline: 0;
+        display: none;
+    }
+    
+*
+/* services part end  */
+    
+    
+    
+    
+/* testimonial  part start  */
+    #testimonial-part{
+        margin-top: 30px;
+    }
+    
+    #testimonial-part .overlay{
+        padding: 80px 0;
+    }
+    
+    #testimonial-part #section-top{
+        display: none;
+    }
+    
+    #testimonial-part #section-bottom .shape{
+        display: none;
+    }
+    
+    #testimonial-part .overlay .text-box .text::after {
+        display: none;
+    }
+    
+    #testimonial-part .overlay .text-box .text{
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #testimonial-part .overlay .prev{
+        display: none !important;
+    }
+        #testimonial-part .overlay .next{
+        display: none !important;
+    }
+    
+    #testimonial-part .overlay .line{
+        display: none;
+    }
+    
+    #testimonial-part .overlay .items{
+        margin-top: 20px;
+    }
+    
+    #testimonial-part .testi-slider .slick-list{
+        height: 156px;
+    }
+/* testimonial  part end  */
+    
+    
+    
+/* pricing   part start  */
+    #pricing-part .price{
+        margin-top: 10px;
+    }
+/* pricing   part end  */
+    
+    
+    
+/* counter   part start  */
+    #counter-part .overlay .row{
+        flex-direction: column;
+    }
+    
+    #counter-part .overlay .three{
+        margin-top: 28px;
+    }
+    
+    #counter-part .overlay .four{
+        margin-top: 28px;
+    }
+    
+    #counter-part .overlay .five{
+        margin-top: 28px;
+    }
+/* counter   part end  */
+    
+    
+    
+/* partner   part start  */
+    #partner-part .partner .slick-slide{
+        margin: 0 10px;
+    }
+    
+/* partner   part end  */
+    
+    
+    
+/* team part start  */
+    #team-part{
+        margin-top: 30px;
+    }
+    
+    #team-part .team{
+        margin-bottom: 30px;
+    }
+/* team part end  */
+    
+    
+    
+/* footer part start  */
+    #footer .item{
+        margin-top: 30px;
+    }
+    
+    #footer .small-end{
+        border-right: 0;
+    }
+/* footer part end  */
+    
+    
+    
+/* back top top button part start  */
+    .b-top{
+        display: none;
+    }
+/* back top top button part end  */    
+    
+}
+
+/*
+=========================================================
+    small device responsive (576px-- 767px) end
+=========================================================
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+=========================================================
+    small device responsive (768px-- 991px) start
+=========================================================
+*/
+
+@media (min-width:768px) and (max-width:991px){
+
+    /* title part start   */
+    .title p{
+        width: auto;
+    }
+    /* title part end   */
+    
+    
+    
+    /* navbar part start   */
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    
+    button i{
+        color: #fff;
+        background: #FEC600;
+        padding: 10px;
+    }
+    
+    .navbar ul{
+        background: #000;
+        text-align: center;
+    }
+    
+    ul li a:hover:after{
+        width: 0;
+    }
+    
+    ul li .active:after{
+        width: 0;
+    }
+/* navbar part end   */
+    
+    
+    
+    
+    
+    
+/* banner part start   */
+    
+    #banner-part .banner .overlay{
+        padding: 150px 0;
+    }
+    
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    #banner-part ul{
+        text-align: center;
+    }
+    
+    #banner-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        border-radius: 50%;
+        
+    }
+    
+    #banner-part ul .slick-active{
+        background: #FEC600;
+    }
+    
+    #banner-part ul li button{
+        font-size: 0;
+        display: none;
+    }
+    
+/* banner part end   */
+    
+    
+    
+/* about part start  */
+    #about-part .about-top{
+        margin-bottom: 150px;
+    }
+    
+    #about-part .about-top p{
+        width: auto;
+    }
+    
+    #about-part .about-top #triangle-down{
+        display: none;
+    }
+    
+    #about-part .about-top i{
+        display: none;
+    }
+    
+    #about-part .about-left{
+        width: auto;
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    #about-part .about-left #triangle-right{
+        display: none;
+    }
+    
+    #about-part .about-left p{
+        width: auto;
+    }
+    
+     #about-part .about-left i{
+        display: none;
+    }
+    
+    #about-part .about-main{
+        width: 300px;
+        height: 300px;
+        margin: 110px auto;
+    }
+    
+    #about-part .about-main .img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-main .img img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-right{
+        text-align: center;
+        width: auto;
+        margin: 0 10px;
+        margin-left: 0;
+    }
+    
+    #about-part .about-right p{
+        width: auto;
+    }
+    
+    #about-part .about-right i{
+        display: none;
+    }
+    
+    #about-part .about-right #triangle-left{
+        display: none;
+    }
+    
+    #about-part .about-bottom{
+        margin-top: 142px;
+    }
+    
+    #about-part .about-bottom #triangle-up{
+        display: none;
+    }
+    
+    #about-part .about-bottom i{
+        display: none;
+    }
+    
+    #about-part .about-bottom p{
+        width: auto;
+    }
+
+/* about part end  */
+    
+    
+    
+/* portfolio part start  */
+    #portfolio-part .overlay{
+        padding: 50px 0;
+    }
+/* portfolio part end  */
+    
+    
+    
+    
+/* services part start  */
+    #services-part .item{
+        flex-direction: column;
+    }
+    
+    #services-part .item .right{
+        width: 100%;
+    }
+    
+    #services-part .item .right p{
+        width: auto;
+    }
+    
+    #services-part .item .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    #services-part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #services-part .line{
+        display: none;
+    }
+    
+    #services-part ul{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #services-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        background: transparent;
+        border-radius: 50%;
+    }
+    
+    #services-part ul .slick-active{
+        background: #FEC600;
+        
+    }
+    
+    #services-part ul li button{
+        font-size: 0;
+        outline: 0;
+        display: none;
+    }
+    
+*
+/* services part end  */
+    
+    
+    
+    
+/* testimonial  part start  */
+    #testimonial-part{
+        margin-top: 30px;
+    }
+    
+    #testimonial-part .overlay{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    
+    #testimonial-part #section-top{
+        display: none;
+    }
+    
+    #testimonial-part #section-bottom .shape{
+        display: none;
+    }
+    
+    #testimonial-part .overlay .text-box .text::after {
+        display: none;
+    }
+    
+    #testimonial-part .overlay .text-box .text{
+        margin-left: 0;
+        text-align: center;
+        margin-top: -125px;
+    }
+    
+    
+    #testimonial-part .overlay .prev{
+        display: none !important;
+    }
+        #testimonial-part .overlay .next{
+        display: none !important;
+    }
+    
+    #testimonial-part .overlay .line{
+        display: none;
+    }
+    
+    #testimonial-part .overlay .items{
+        margin-top: 20px;
+    }
+    
+    #testimonial-part .testi-slider .slick-list{
+        height: 156px;
+    }
+/* testimonial  part end  */
+    
+    
+    
+/* pricing   part start  */
+    
+/*    no need responsive css*/
+    
+/* pricing   part end  */
+    
+    
+    
+/* counter   part start  */
+    
+    #counter-part{
+        margin-top: 30px;
+    }
+    
+    #counter-part .overlay .counter p{
+        font-size: 13px;
+    }
+/* counter   part end  */
+    
+    
+    
+/* partner   part start  */
+    #partner-part .partner .slick-slide{
+        margin: 0 10px;
+    }
+    
+/* partner   part end  */
+    
+    
+    
+/* team part start  */
+    #team-part{
+        margin-top: 30px;
+    }
+    
+    #team-part .team{
+        margin-bottom: 30px;
+    }
+/* team part end  */
+    
+    
+    
+/* footer part start  */
+    #footer .item{
+        margin-top: 30px;
+    }
+    
+    #footer .small-end{
+        border-right: 0;
+    }
+/* footer part end  */
+    
+    
+    
+/* back top top button part start  */
+    .b-top{
+        display: none;
+    }
+/* back top top button part end  */    
+    
+}
+
+/*
+=========================================================
+    medium device responsive (768px-- 991px) end
+=========================================================
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+=========================================================
+    large device responsive (992px-- 1199px) start
+=========================================================
+*/
+
+@media (min-width:992px) and (max-width:1199px){
+
+    /* navbar part start   */
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    
+    button i{
+        color: #fff;
+        background: #FEC600;
+        padding: 10px;
+    }
+    
+    .navbar ul{
+        text-align: center;
+    }
+    
+    ul li a:hover:after{
+        width: 0;
+    }
+    
+    ul li .active:after{
+        width: 0;
+    }
+/* navbar part end   */
+    
+    
+    
+    
+    
+    
+/* banner part start   */
+    
+    #banner-part .banner .overlay{
+        padding: 150px 0;
+    }
+    
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+    
+    #banner-part ul{
+        text-align: center;
+    }
+    
+    #banner-part ul li{
+        display: inline-block;
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #FEC600;
+        border-radius: 50%;
+        
+    }
+    
+    #banner-part ul .slick-active{
+        background: #FEC600;
+    }
+    
+    #banner-part ul li button{
+        font-size: 0;
+        display: none;
+    }
+    
+    #banner-shape .shape{
+        top: -124px;
+    }
+    
+/* banner part end   */
+    
+    
+    
+/* about part start  */
+    #about-part{
+        padding: 0;
+    }
+    
+    #about-part .about-top p{
+        width: auto;
+    }
+    
+    #about-part .about-top #triangle-down{
+        display: none;
+    }
+    
+    #about-part .about-top i{
+        display: none;
+    }
+    
+    #about-part .about-left{
+        width: auto;
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    #about-part .about-left #triangle-right{
+        display: none;
+    }
+    
+    #about-part .about-left p{
+        width: auto;
+    }
+    
+     #about-part .about-left i{
+        display: none;
+    }
+    
+    #about-part .about-main{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #about-part .about-main .img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-main .img img{
+        width: 275px;
+        height: 275px;
+    }
+    
+    #about-part .about-right{
+        text-align: center;
+        width: auto;
+        margin: 0 10px;
+        margin-left: 0;
+    }
+    
+    #about-part .about-right p{
+        width: auto;
+    }
+    
+    #about-part .about-right i{
+        display: none;
+    }
+    
+    #about-part .about-right #triangle-left{
+        display: none;
+    }
+    
+    
+    #about-part .about-bottom #triangle-up{
+        display: none;
+    }
+    
+    #about-part .about-bottom i{
+        display: none;
+    }
+    
+    #about-part .about-bottom p{
+        width: auto;
+    }
+
+/* about part end  */
+    
+    
+    
+/* portfolio part start  */
+    #portfolio-part .overlay{
+        padding: 50px 0;
+    }
+/* portfolio part end  */
+    #services-part .item .right p{
+        width: auto;
+    }
+    
+    #services-part .next{
+        z-index: 9;
+    }
+    
+    #services-part .item .right{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #services-part .next{
+        bottom: -220px;
+    }
+    
+
+/* services part end  */
+    
+    
+    
+    
+/* testimonial  part start  */
+    #testimonial-part{
+        margin-top: 240px;
+    }
+    
+    #testimonial-part .overlay .text-box .text::after {
+        display: none;
+    }
+    
+    #testimonial-part .overlay .text-box .text{
+        margin-left: 0;
+        text-align: center;
+        margin-top: -125px;
+    }
+   
+    #testimonial-part .testi-slider .slick-list{
+        height: 156px;
+    }
+    
+/* testimonial  part end  */
+ 
+    
+    
+    
+/* counter   part start  */
+    
+    #counter-part{
+        margin-top: 30px;
+    }
+    
+    #counter-part .overlay .counter p{
+        font-size: 13px;
+    }
+/* counter   part end  */
+    
+    
+    
+/* partner   part start  */
+    #partner-part .partner .slick-slide{
+        margin: 0 10px;
+    }
+    
+/* partner   part end  */
+    
+    
+    
+/* team part start  */
+    #team-part{
+        margin-top: 30px;
+    }
+    
+    #team-part .team{
+        margin-bottom: 30px;
+    }
+/* team part end  */
+    
+    
+    
+/* footer part start  */
+    #footer .item p{
+        font-size: 14px;
+    }
+
+/* footer part end  */
+    
+      
+}
+
+/*
+=========================================================
+    large device responsive (992px-- 1199px) end
+=========================================================
+*/

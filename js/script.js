@@ -13,19 +13,21 @@ $('#banner-part').slick({
     
      responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false,
+        arrows: true,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
       }
     },
     {
@@ -35,6 +37,7 @@ $('#banner-part').slick({
         slidesToScroll: 1,
         dots: true,
       }
+             
     }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
@@ -70,20 +73,39 @@ $('.services-slider').slick({
     
     
     responsive: [
+    
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        centerPadding: true,
+      }
+    },
+        
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
+        arrows: false,
+        centerMode: true,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        centerMode: true,
       }
     },
     {
@@ -127,19 +149,23 @@ $('.testi-slider').slick({
     
     responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
+        vertical: false,
+        dots: false,
+        autoPlay: true,
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical: false,
       }
     },
     {
@@ -233,21 +259,21 @@ $('.partner').slick({
     centerPadding: 0,
     
     
-    responsive: [
+    responsive: [  
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        autoPlay: true,
       }
     },
     {
