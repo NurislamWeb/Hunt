@@ -266,6 +266,7 @@
     
     #testimonial-part .overlay .text-box .text{
         margin-left: 0;
+        text-align: center;
     }
     
     #testimonial-part .overlay .prev{
@@ -1386,7 +1387,6 @@
 
 /* footer part end  */
     
-      
 }
 
 /*
